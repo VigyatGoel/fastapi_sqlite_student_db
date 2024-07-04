@@ -73,9 +73,9 @@ This is API made using FastAPI in python. It can be used to connect to a local s
   Returns the info about API
 
 5. ### List of students ###
-  GET `/get_all_students/`<br />
-  
-  Returns List all students
+     GET `/get_all_students/`<br />
+
+     Returns List all students
 
 7. Get a Single Student
   GET `/get_student/{student_id}/`
