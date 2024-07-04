@@ -54,6 +54,40 @@ This is API made using FastAPI in python. It can be used to connect to a local s
   ```bash
   http://127.0.0.1:8000/docs
   ```
+## End Points
+
+1. The API is available at:
+  ```bash
+  http://127.0.0.1:8000/
+  ```
+2. API docs are available at:
+  ```bash
+  http://127.0.0.1:8000/docs
+  ```
+3. Root
+  GET `/status`
+  Returns the homepage of the API
+
+4. Help
+  GET `/help`
+  Returns the info about API
+
+5. List of students
+  GET `/get_all_students/`
+  Returns List all students
+
+6. Get a Single Student
+  GET `/get_student/{student_id}/`
+
+7. Insert a new student into database
+  POST `insert_student/?student_id={student_id}&branch={branch}&cgpa={cgpa}&status={status}`
+
+8. Update a existing student in database
+  PUT `/update_student/?student_id={student_id}&branch={branch}&cgpa={cgpa}&status={status}`
+
+10. Delete a existing student in database
+  DELETE `/delete_student/?student_id={student_id}/`
+
 
 ## Contributing
 
