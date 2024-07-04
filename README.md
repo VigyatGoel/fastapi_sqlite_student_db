@@ -17,40 +17,40 @@ This is API made using FastAPI in python. It can be used to connect to a local s
 
 1. Clone the repository:
 
-```bash
+  ```bash
   https://github.com/VigyatGoel/fastapi_sqlite_student_db.git
-```
+  ```
 ## Running the API
 
-1. Navigate to the root directory of the project
+1. Navigate to the root directory of the project:
   ```bash
    cd fastapi_sqlite_student_db
    ```
-2. Install all required dependencies
+2. Install all required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Navigation to my_app package.
+3. Navigation to my_app package:
    ```bash
    cd my_app
    ```
-4. Setup the Database
+4. Setup the Database:
    ```bash
    python3 setup.py
    ```
-5. Navigate back to root directory of the project
-  ```bash
+5. Navigate back to root directory of the project:
+   ```bash
    cd ..
    ```
-6. Run the API
+7. Run the API:
    ```bash
    fastapi dev my_app
    ```
-7. You can access the api at
+8. You can access the api at the following url:
    ```bash
    http://127.0.0.1:8000
    ```
-8. Docs will be available at
+9. Docs will be available at:
    ```bash
    http://127.0.0.1:8000/docs
    ```
