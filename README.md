@@ -56,7 +56,7 @@ This is API made using FastAPI in python. It can be used to connect to a local s
   ```
 ## End Points
 
-1. The API is available at:
+1. ### The API is available at: ###
   ```bash
   http://127.0.0.1:8000/
   ```
@@ -72,7 +72,7 @@ This is API made using FastAPI in python. It can be used to connect to a local s
   GET `/help`
   Returns the info about API
 
-5. List of students
+5. ### List of students ###
   GET `/get_all_students/`<br />
   
     Returns List all students
