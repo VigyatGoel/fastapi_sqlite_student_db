@@ -60,34 +60,45 @@ This is API made using FastAPI in python. It can be used to connect to a local s
   ```bash
   http://127.0.0.1:8000/
   ```
-2. API docs are available at:
+2. ### API docs are available at: ###
   ```bash
   http://127.0.0.1:8000/docs
   ```
-3. Root
-  GET `/status`
-  Returns the homepage of the API
+3. ### Root ###
+     GET `/status`
+   
+     Returns the homepage of the API
 
-4. Help
-  GET `/help`
-  Returns the info about API
+5. ### Help ###
+     GET `/help`
+   
+     Returns the info about API
 
-5. ### List of students ###
+7. ### List of students ###
      GET `/get_all_students/`<br />
 
      Returns List all students
 
-7. Get a Single Student
-  GET `/get_student/{student_id}/`
+8. ### Get a Single Student ###
+     GET `/get_student/{student_id}/`
 
-8. Insert a new student into database
-  POST `insert_student/?student_id={student_id}&branch={branch}&cgpa={cgpa}&status={status}`
+     Returns a student with given student_id
 
-9. Update a existing student in database
-  PUT `/update_student/?student_id={student_id}&branch={branch}&cgpa={cgpa}&status={status}`
+10. ### Insert a new student in database ###
+      POST `insert_student/?student_id={student_id}&branch={branch}&cgpa={cgpa}&status={status}`
 
-10. Delete a existing student in database
-  DELETE `/delete_student/?student_id={student_id}/`
+      Returns status=ok if student is inserted successfully in the database
+
+12. ### Update a existing student in database ###
+      PUT `/update_student/?student_id={student_id}&branch={branch}&cgpa={cgpa}&status={status}`
+
+      Returns status=ok if student is updated successfully in the database
+
+14. ### Delete a existing student in database ###
+      DELETE `/delete_student/?student_id={student_id}/`
+    
+      Returns status=ok if student is deleted successfully in the database
+      
 
 
 ## Contributing
