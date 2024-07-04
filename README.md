@@ -74,15 +74,16 @@ This is API made using FastAPI in python. It can be used to connect to a local s
 
 5. List of students
   GET `/get_all_students/`
+  <br />
   Returns List all students
 
-6. Get a Single Student
+7. Get a Single Student
   GET `/get_student/{student_id}/`
 
-7. Insert a new student into database
+8. Insert a new student into database
   POST `insert_student/?student_id={student_id}&branch={branch}&cgpa={cgpa}&status={status}`
 
-8. Update a existing student in database
+9. Update a existing student in database
   PUT `/update_student/?student_id={student_id}&branch={branch}&cgpa={cgpa}&status={status}`
 
 10. Delete a existing student in database
