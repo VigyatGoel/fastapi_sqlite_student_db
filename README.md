@@ -103,9 +103,9 @@ This is API made using FastAPI in python. It can be used to connect to a local s
 
 ## Contributing
 
-Contributions to Quick Note are welcome!
+Contributions to this are welcome!
 If you have any suggestions, bug reports, or feature requests, please open an issue on the GitHub repository or submit a pull request with your changes.
 
 ## License
 
-Quick Note is released under the MIT License.
+fast_api_student_db is released under the MIT License.
